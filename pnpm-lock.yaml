@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@nutui/nutui':
+        specifier: ^4.3.14
+        version: 4.3.14(unplugin-vue-components@31.0.0(@nuxt/kit@4.3.0(magicast@0.5.1))(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))
       vue:
         specifier: ^3.5.24
         version: 3.5.27(typescript@5.9.3)
@@ -167,6 +170,9 @@ packages:
   '@jridgewell/gen-mapping@0.3.13':
     resolution: {integrity: sha1-Y0Khn0Q0dRjJPkOxrGnes8Rlah8=, tarball: http://registry.m.jd.com/@jridgewell/gen-mapping/download/@jridgewell/gen-mapping-0.3.13.tgz}
 
+  '@jridgewell/remapping@2.3.5':
+    resolution: {integrity: sha1-N1xHbRlylHhRuh4Vro8SMEdEWqE=, tarball: http://registry.m.jd.com/@jridgewell/remapping/download/@jridgewell/remapping-2.3.5.tgz}
+
   '@jridgewell/resolve-uri@3.1.2':
     resolution: {integrity: sha1-eg7mAfYPmaIMfHxf8MgDiMEYm9Y=, tarball: http://registry.m.jd.com/@jridgewell/resolve-uri/download/@jridgewell/resolve-uri-3.1.2.tgz}
     engines: {node: '>=6.0.0'}
@@ -179,6 +185,19 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha1-2xXWeByTHzolGj2sOVAcmKYIL9A=, tarball: http://registry.m.jd.com/@jridgewell/trace-mapping/download/@jridgewell/trace-mapping-0.3.31.tgz}
+
+  '@nutui/icons-vue@0.1.1':
+    resolution: {integrity: sha1-2Qs+XV4Qmuu3deTdUWfXAvOtzsE=, tarball: http://registry.m.jd.com/@nutui/icons-vue/download/@nutui/icons-vue-0.1.1.tgz}
+
+  '@nutui/nutui@4.3.14':
+    resolution: {integrity: sha1-Gn+CuCGROs9XrZ6q2Kw+8MQMhSI=, tarball: http://registry.m.jd.com/@nutui/nutui/download/@nutui/nutui-4.3.14.tgz}
+    peerDependencies:
+      unplugin-vue-components: '>=0.25.1'
+      vue: ^3.0.0
+
+  '@nuxt/kit@4.3.0':
+    resolution: {integrity: sha1-LqdiWaK6WyfWrmmYIClXEjYWZl4=, tarball: http://registry.m.jd.com/@nuxt/kit/download/@nuxt/kit-4.3.0.tgz}
+    engines: {node: '>=18.12.0'}
 
   '@parcel/watcher-android-arm64@2.5.6':
     resolution: {integrity: sha1-XzLg26NW9KyaEQaNKlwTTKO6ZWQ=, tarball: http://registry.m.jd.com/@parcel/watcher-android-arm64/download/@parcel/watcher-android-arm64-2.5.6.tgz}
@@ -377,6 +396,11 @@ packages:
     peerDependencies:
       typescript: 5.x
       vue: ^3.4.0
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+      vue:
+        optional: true
 
   acorn@8.15.0:
     resolution: {integrity: sha1-o2CJi8QV7arEbIJB9jg5dbkwuBY=, tarball: http://registry.m.jd.com/acorn/download/acorn-8.15.0.tgz}
@@ -414,9 +438,21 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha1-KxRqb9cugLT1XSVfNe1Zo6mkG9U=, tarball: http://registry.m.jd.com/buffer-from/download/buffer-from-1.1.2.tgz}
 
+  c12@3.3.3:
+    resolution: {integrity: sha1-yrZgTm5hF/yeYkOajoFEu75e3NY=, tarball: http://registry.m.jd.com/c12/download/c12-3.3.3.tgz}
+    peerDependencies:
+      magicast: '*'
+
   chokidar@4.0.3:
     resolution: {integrity: sha1-e+N6TAPJruHs/oYqSiOyxwwgXTA=, tarball: http://registry.m.jd.com/chokidar/download/chokidar-4.0.3.tgz}
     engines: {node: '>= 14.16.0'}
+
+  chokidar@5.0.0:
+    resolution: {integrity: sha1-lJwSapI4qAeSvpoCZZNPCYrzaaU=, tarball: http://registry.m.jd.com/chokidar/download/chokidar-5.0.0.tgz}
+    engines: {node: '>= 20.19.0'}
+
+  citty@0.1.6:
+    resolution: {integrity: sha1-D3kE2h7UYl4anqfg+ngJgaq3xeQ=, tarball: http://registry.m.jd.com/citty/download/citty-0.1.6.tgz}
 
   color-convert@2.0.1:
     resolution: {integrity: sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM=, tarball: http://registry.m.jd.com/color-convert/download/color-convert-2.0.1.tgz}
@@ -430,6 +466,16 @@ packages:
 
   commander@2.20.3:
     resolution: {integrity: sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=, tarball: http://registry.m.jd.com/commander/download/commander-2.20.3.tgz}
+
+  confbox@0.1.8:
+    resolution: {integrity: sha1-gg1z07PILZvZEGUsXU1Znvj/iwY=, tarball: http://registry.m.jd.com/confbox/download/confbox-0.1.8.tgz}
+
+  confbox@0.2.2:
+    resolution: {integrity: sha1-hlL1OWHHTZ4IF4S+7XhVWXSpwRA=, tarball: http://registry.m.jd.com/confbox/download/confbox-0.2.2.tgz}
+
+  consola@3.4.2:
+    resolution: {integrity: sha1-WvEQFFOXu2ev2rdwE/3DTK5ZDqc=, tarball: http://registry.m.jd.com/consola/download/consola-3.4.2.tgz}
+    engines: {node: ^14.18.0 || >=16.10.0}
 
   copy-anything@2.0.6:
     resolution: {integrity: sha1-CSRU6pWEp7etVXMGKyqH9ZAPxIA=, tarball: http://registry.m.jd.com/copy-anything/download/copy-anything-2.0.6.tgz}
@@ -445,9 +491,19 @@ packages:
     resolution: {integrity: sha1-xq5DLZvZZiWC/OCHCbA4xY6ePWo=, tarball: http://registry.m.jd.com/debug/download/debug-4.4.3.tgz}
     engines: {node: '>=6.0'}
 
+  defu@6.1.4:
+    resolution: {integrity: sha1-Tgyc+f9o/l89fydlzBoBLf3LBHk=, tarball: http://registry.m.jd.com/defu/download/defu-6.1.4.tgz}
+
+  destr@2.0.5:
+    resolution: {integrity: sha1-fREv8bkl+40gefrFvbSpCXO1H9s=, tarball: http://registry.m.jd.com/destr/download/destr-2.0.5.tgz}
+
   detect-libc@2.1.2:
     resolution: {integrity: sha1-aJxdzcGQDvVYOky59te0c3QgdK0=, tarball: http://registry.m.jd.com/detect-libc/download/detect-libc-2.1.2.tgz}
     engines: {node: '>=8'}
+
+  dotenv@17.2.3:
+    resolution: {integrity: sha1-rZldaZf2ObEQZfQZoi+r9WfNuaI=, tarball: http://registry.m.jd.com/dotenv/download/dotenv-17.2.3.tgz}
+    engines: {node: '>=12'}
 
   eastasianwidth@0.2.0:
     resolution: {integrity: sha1-aWzi7Aqg5uqTo5f/zySqeEDIJ8s=, tarball: http://registry.m.jd.com/eastasianwidth/download/eastasianwidth-0.2.0.tgz}
@@ -466,6 +522,9 @@ packages:
     resolution: {integrity: sha1-i7Ppx9Rjvkl2/4iPdrSAnrwugR8=, tarball: http://registry.m.jd.com/errno/download/errno-0.1.8.tgz}
     hasBin: true
 
+  errx@0.1.0:
+    resolution: {integrity: sha1-SIHkEdkKOx4WIKB2BPUAgd1Z86o=, tarball: http://registry.m.jd.com/errx/download/errx-0.1.0.tgz}
+
   esbuild@0.27.2:
     resolution: {integrity: sha1-2D7SFU1YE6U2c3a7IpKpKW/INxc=, tarball: http://registry.m.jd.com/esbuild/download/esbuild-0.27.2.tgz}
     engines: {node: '>=18'}
@@ -474,11 +533,20 @@ packages:
   estree-walker@2.0.2:
     resolution: {integrity: sha1-UvAQF4wqTBF6d1fP6UKtt9LaTKw=, tarball: http://registry.m.jd.com/estree-walker/download/estree-walker-2.0.2.tgz}
 
+  estree-walker@3.0.3:
+    resolution: {integrity: sha1-Z8PlSexAKkh7T8GT0ZU6UkdSNA0=, tarball: http://registry.m.jd.com/estree-walker/download/estree-walker-3.0.3.tgz}
+
+  exsolve@1.0.8:
+    resolution: {integrity: sha1-f1402mHNERbe2lE25iKSwJb1BhM=, tarball: http://registry.m.jd.com/exsolve/download/exsolve-1.0.8.tgz}
+
   fdir@6.5.0:
     resolution: {integrity: sha1-7Sq5Z6MxreYvGNB32uGSaE1Q01A=, tarball: http://registry.m.jd.com/fdir/download/fdir-6.5.0.tgz}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       picomatch: ^3 || ^4
+    peerDependenciesMeta:
+      picomatch:
+        optional: true
 
   foreground-child@3.3.1:
     resolution: {integrity: sha1-Mujp7Rtoo0l777msK2rfkqY4V28=, tarball: http://registry.m.jd.com/foreground-child/download/foreground-child-3.3.1.tgz}
@@ -490,6 +558,10 @@ packages:
 
   get-tsconfig@4.13.1:
     resolution: {integrity: sha1-/5bA2Yln3yEcHrrUHzdcz1FsQ/o=, tarball: http://registry.m.jd.com/get-tsconfig/download/get-tsconfig-4.13.1.tgz}
+
+  giget@2.0.0:
+    resolution: {integrity: sha1-OV/JNKQ/mnopop1VuZ8j4wwU8ZU=, tarball: http://registry.m.jd.com/giget/download/giget-2.0.0.tgz}
+    hasBin: true
 
   glob@10.5.0:
     resolution: {integrity: sha1-jsA1WRnNMzjChCiiPU8k7MX+c4w=, tarball: http://registry.m.jd.com/glob/download/glob-10.5.0.tgz}
@@ -505,6 +577,10 @@ packages:
   iconv-lite@0.6.3:
     resolution: {integrity: sha1-pS+AvzjaGVLrXGgXkHGYcaGnJQE=, tarball: http://registry.m.jd.com/iconv-lite/download/iconv-lite-0.6.3.tgz}
     engines: {node: '>=0.10.0'}
+
+  ignore@7.0.5:
+    resolution: {integrity: sha1-TLX2zX1MerA2VzjHrqiIuqbX79k=, tarball: http://registry.m.jd.com/ignore/download/ignore-7.0.5.tgz}
+    engines: {node: '>= 4'}
 
   image-size@0.5.5:
     resolution: {integrity: sha1-Cd/Uq50g4p6xw+gLiZA3jfnjy5w=, tarball: http://registry.m.jd.com/image-size/download/image-size-0.5.5.tgz}
@@ -538,6 +614,13 @@ packages:
   jiti@2.6.1:
     resolution: {integrity: sha1-F47y/JoaWUJIwgYnzYIBh6TXjZI=, tarball: http://registry.m.jd.com/jiti/download/jiti-2.6.1.tgz}
     hasBin: true
+
+  klona@2.0.6:
+    resolution: {integrity: sha1-hb/7+BnAOy9TJwQSQgpFVe+ILiI=, tarball: http://registry.m.jd.com/klona/download/klona-2.0.6.tgz}
+    engines: {node: '>= 8'}
+
+  knitwork@1.3.0:
+    resolution: {integrity: sha1-Sg0LDUU3jKyQnuERdIE5JSK9CKQ=, tarball: http://registry.m.jd.com/knitwork/download/knitwork-1.3.0.tgz}
 
   less@4.5.1:
     resolution: {integrity: sha1-c5JmUyJJo94jLotg/7GyetXsatg=, tarball: http://registry.m.jd.com/less/download/less-4.5.1.tgz}
@@ -592,11 +675,18 @@ packages:
     resolution: {integrity: sha1-GhndMntUen7aHVwpbr4ect9aGEs=, tarball: http://registry.m.jd.com/lightningcss/download/lightningcss-1.31.1.tgz}
     engines: {node: '>= 12.0.0'}
 
+  local-pkg@1.1.2:
+    resolution: {integrity: sha1-wD0gh4cSZEUwP4FhYZ3HAa+kq7U=, tarball: http://registry.m.jd.com/local-pkg/download/local-pkg-1.1.2.tgz}
+    engines: {node: '>=14'}
+
   lru-cache@10.4.3:
     resolution: {integrity: sha1-QQ/IoXtw5ZgBPfJXwkRrfzOD8Rk=, tarball: http://registry.m.jd.com/lru-cache/download/lru-cache-10.4.3.tgz}
 
   magic-string@0.30.21:
     resolution: {integrity: sha1-VnY+wJoPqAkd8nh5/ZTRkHjADZE=, tarball: http://registry.m.jd.com/magic-string/download/magic-string-0.30.21.tgz}
+
+  magicast@0.5.1:
+    resolution: {integrity: sha1-UYlZrqeIUc011LsNqS94DbP2BtM=, tarball: http://registry.m.jd.com/magicast/download/magicast-0.5.1.tgz}
 
   make-dir@2.1.0:
     resolution: {integrity: sha1-XwMQ4YuL6JjMBwCSlaMK5B6R5vU=, tarball: http://registry.m.jd.com/make-dir/download/make-dir-2.1.0.tgz}
@@ -614,6 +704,9 @@ packages:
   minipass@7.1.2:
     resolution: {integrity: sha1-k6libOXl5mvU24aEnnUV6SNApwc=, tarball: http://registry.m.jd.com/minipass/download/minipass-7.1.2.tgz}
     engines: {node: '>=16 || 14 >=14.17'}
+
+  mlly@1.8.0:
+    resolution: {integrity: sha1-4HRhK5OK+Ouh6vQymcvInLctgk4=, tarball: http://registry.m.jd.com/mlly/download/mlly-1.8.0.tgz}
 
   ms@2.1.3:
     resolution: {integrity: sha1-V0yBOM4dK1hh8LRFedut1gxmFbI=, tarball: http://registry.m.jd.com/ms/download/ms-2.1.3.tgz}
@@ -634,6 +727,20 @@ packages:
   node-addon-api@7.1.1:
     resolution: {integrity: sha1-Grpmk7DyVSWKBJ1iEykykyKq1Vg=, tarball: http://registry.m.jd.com/node-addon-api/download/node-addon-api-7.1.1.tgz}
 
+  node-fetch-native@1.6.7:
+    resolution: {integrity: sha1-nQnKYwZsxIQjIR7UyvXXAHXXanE=, tarball: http://registry.m.jd.com/node-fetch-native/download/node-fetch-native-1.6.7.tgz}
+
+  nypm@0.6.2:
+    resolution: {integrity: sha1-RnUSAklIOY+vpzzqMKPtnvxa8HE=, tarball: http://registry.m.jd.com/nypm/download/nypm-0.6.2.tgz}
+    engines: {node: ^14.16.0 || >=16.10.0}
+    hasBin: true
+
+  obug@2.1.1:
+    resolution: {integrity: sha1-LLp0/yQb63fWMFXd9M0en5C1OL4=, tarball: http://registry.m.jd.com/obug/download/obug-2.1.1.tgz}
+
+  ohash@2.0.11:
+    resolution: {integrity: sha1-YLEejP9iyp3uiNE3R6W6oUX1kAs=, tarball: http://registry.m.jd.com/ohash/download/ohash-2.0.11.tgz}
+
   package-json-from-dist@1.0.1:
     resolution: {integrity: sha1-TxRxoBCCeob5TP2bByfjbSZ95QU=, tarball: http://registry.m.jd.com/package-json-from-dist/download/package-json-from-dist-1.0.1.tgz}
 
@@ -652,6 +759,12 @@ packages:
     resolution: {integrity: sha1-eWCmaIiFlKByCxKpEdGnQqufEdI=, tarball: http://registry.m.jd.com/path-scurry/download/path-scurry-1.11.1.tgz}
     engines: {node: '>=16 || 14 >=14.18'}
 
+  pathe@2.0.3:
+    resolution: {integrity: sha1-PsvsVUIWhbcKnahyss/z4cvtFxY=, tarball: http://registry.m.jd.com/pathe/download/pathe-2.0.3.tgz}
+
+  perfect-debounce@2.1.0:
+    resolution: {integrity: sha1-5weOOPIxyxkYVcMTakQjrvcl0mE=, tarball: http://registry.m.jd.com/perfect-debounce/download/perfect-debounce-2.1.0.tgz}
+
   picocolors@1.1.1:
     resolution: {integrity: sha1-PTIa8+q5ObCDyPkpodEs2oHCa2s=, tarball: http://registry.m.jd.com/picocolors/download/picocolors-1.1.1.tgz}
 
@@ -663,6 +776,12 @@ packages:
     resolution: {integrity: sha1-SyzSXFDVmHNcUCkiJP2MbfQeMjE=, tarball: http://registry.m.jd.com/pify/download/pify-4.0.1.tgz}
     engines: {node: '>=6'}
 
+  pkg-types@1.3.1:
+    resolution: {integrity: sha1-vXzHCIEZJ3fu9TJsGd60bokJF98=, tarball: http://registry.m.jd.com/pkg-types/download/pkg-types-1.3.1.tgz}
+
+  pkg-types@2.3.0:
+    resolution: {integrity: sha1-A38sGb1UApZv9oEOMnBlWMtbVyY=, tarball: http://registry.m.jd.com/pkg-types/download/pkg-types-2.3.0.tgz}
+
   postcss@8.5.6:
     resolution: {integrity: sha1-KCUAZhWmGbT2Kp50JswSCzSajzw=, tarball: http://registry.m.jd.com/postcss/download/postcss-8.5.6.tgz}
     engines: {node: ^10 || ^12 || >=14}
@@ -670,9 +789,19 @@ packages:
   prr@1.0.1:
     resolution: {integrity: sha1-0/wRS6BplaRexok/SEzrHXj19HY=, tarball: http://registry.m.jd.com/prr/download/prr-1.0.1.tgz}
 
+  quansync@0.2.11:
+    resolution: {integrity: sha1-+cOt2i4ScuT4zz8UV7BMvbTuaSo=, tarball: http://registry.m.jd.com/quansync/download/quansync-0.2.11.tgz}
+
+  rc9@2.1.2:
+    resolution: {integrity: sha1-YoL/Y4pQyqCpGjHXavSgucvRCA0=, tarball: http://registry.m.jd.com/rc9/download/rc9-2.1.2.tgz}
+
   readdirp@4.1.2:
     resolution: {integrity: sha1-64WAFDX78qfuWPGeCSGwaPxplI0=, tarball: http://registry.m.jd.com/readdirp/download/readdirp-4.1.2.tgz}
     engines: {node: '>= 14.18.0'}
+
+  readdirp@5.0.0:
+    resolution: {integrity: sha1-+/H3GnJ4kdaFuxeG+bp0CE9uL5E=, tarball: http://registry.m.jd.com/readdirp/download/readdirp-5.0.0.tgz}
+    engines: {node: '>= 20.19.0'}
 
   resolve-pkg-maps@1.0.0:
     resolution: {integrity: sha1-YWs9wsVwVrVYjDHN9LPWTbEzcg8=, tarball: http://registry.m.jd.com/resolve-pkg-maps/download/resolve-pkg-maps-1.0.0.tgz}
@@ -714,8 +843,16 @@ packages:
     resolution: {integrity: sha1-8pwruoDOW4b0NDtMK+nyuWYnz4s=, tarball: http://registry.m.jd.com/sax/download/sax-1.4.4.tgz}
     engines: {node: '>=11.0.0'}
 
+  scule@1.3.0:
+    resolution: {integrity: sha1-bvvSL9C7gBvcxYXIkman0tqo+9M=, tarball: http://registry.m.jd.com/scule/download/scule-1.3.0.tgz}
+
   semver@5.7.2:
     resolution: {integrity: sha1-SNVdtzfDKHzUg14X+hP+rOHEHvg=, tarball: http://registry.m.jd.com/semver/download/semver-5.7.2.tgz}
+    hasBin: true
+
+  semver@7.7.3:
+    resolution: {integrity: sha1-S19BQ9AHYzqNxnHNCm75FHuLuUY=, tarball: http://registry.m.jd.com/semver/download/semver-7.7.3.tgz}
+    engines: {node: '>=10'}
     hasBin: true
 
   shebang-command@2.0.0:
@@ -789,6 +926,10 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  tinyexec@1.0.2:
+    resolution: {integrity: sha1-vdJzf+K6QL1vkYriZkLyZLmcolE=, tarball: http://registry.m.jd.com/tinyexec/download/tinyexec-1.0.2.tgz}
+    engines: {node: '>=18'}
+
   tinyglobby@0.2.15:
     resolution: {integrity: sha1-4ijdHmOM6pk9L9tPzS1GAqeZUcI=, tarball: http://registry.m.jd.com/tinyglobby/download/tinyglobby-0.2.15.tgz}
     engines: {node: '>=12.0.0'}
@@ -806,8 +947,33 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
+  ufo@1.6.3:
+    resolution: {integrity: sha1-eZZm5OiMEiqWWYBeMLncBxw67U8=, tarball: http://registry.m.jd.com/ufo/download/ufo-1.6.3.tgz}
+
+  unctx@2.5.0:
+    resolution: {integrity: sha1-oMO6A4OIVtM26BWnFAPOGoSOQQg=, tarball: http://registry.m.jd.com/unctx/download/unctx-2.5.0.tgz}
+
   undici-types@7.16.0:
     resolution: {integrity: sha1-/8zf82rqSITL/OmnUKBYAiT1ikY=, tarball: http://registry.m.jd.com/undici-types/download/undici-types-7.16.0.tgz}
+
+  unplugin-utils@0.3.1:
+    resolution: {integrity: sha1-7yhzZwpqKiG9LJ0xMHJXzIY6cJw=, tarball: http://registry.m.jd.com/unplugin-utils/download/unplugin-utils-0.3.1.tgz}
+    engines: {node: '>=20.19.0'}
+
+  unplugin-vue-components@31.0.0:
+    resolution: {integrity: sha1-+jG4iErHbnhpbjpB9G5bWKRTm2A=, tarball: http://registry.m.jd.com/unplugin-vue-components/download/unplugin-vue-components-31.0.0.tgz}
+    engines: {node: '>=20.19.0'}
+    peerDependencies:
+      '@nuxt/kit': ^3.2.2 || ^4.0.0
+      vue: ^3.0.0
+
+  unplugin@2.3.11:
+    resolution: {integrity: sha1-QR4CDdK6kOL74ee9Y6WjmebuO1Q=, tarball: http://registry.m.jd.com/unplugin/download/unplugin-2.3.11.tgz}
+    engines: {node: '>=18.12.0'}
+
+  untyped@2.0.0:
+    resolution: {integrity: sha1-hrwgWk7EsBNygihYZrgnhVeu7pc=, tarball: http://registry.m.jd.com/untyped/download/untyped-2.0.0.tgz}
+    hasBin: true
 
   varint@6.0.0:
     resolution: {integrity: sha1-mIHrDOj+rqZRJDnRnd+Ev1UWYdA=, tarball: http://registry.m.jd.com/varint/download/varint-6.0.0.tgz}
@@ -828,6 +994,29 @@ packages:
       terser: ^5.16.0
       tsx: ^4.8.1
       yaml: ^2.4.2
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      jiti:
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+      tsx:
+        optional: true
+      yaml:
+        optional: true
 
   vscode-uri@3.1.0:
     resolution: {integrity: sha1-3QnsWmaji1w//8d0AVcTSW0U4Jw=, tarball: http://registry.m.jd.com/vscode-uri/download/vscode-uri-3.1.0.tgz}
@@ -842,6 +1031,12 @@ packages:
     resolution: {integrity: sha1-5V/ZQbYURZqyIoSJvBnRaS4Fh2w=, tarball: http://registry.m.jd.com/vue/download/vue-3.5.27.tgz}
     peerDependencies:
       typescript: '*'
+    peerDependenciesMeta:
+      typescript:
+        optional: true
+
+  webpack-virtual-modules@0.6.2:
+    resolution: {integrity: sha1-BX+qkGXIrPSPJMtXrA53c5q5p+g=, tarball: http://registry.m.jd.com/webpack-virtual-modules/download/webpack-virtual-modules-0.6.2.tgz}
 
   which@2.0.2:
     resolution: {integrity: sha1-fGqN0KY2oDJ+ELWckobu6T8/UbE=, tarball: http://registry.m.jd.com/which/download/which-2.0.2.tgz}
@@ -863,7 +1058,8 @@ packages:
 
 snapshots:
 
-  '@adobe/css-tools@4.3.3': {}
+  '@adobe/css-tools@4.3.3':
+    optional: true
 
   '@babel/helper-string-parser@7.27.1': {}
 
@@ -878,7 +1074,8 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
 
-  '@bufbuild/protobuf@2.11.0': {}
+  '@bufbuild/protobuf@2.11.0':
+    optional: true
 
   '@esbuild/aix-ppc64@0.27.2':
     optional: true
@@ -966,10 +1163,16 @@ snapshots:
       strip-ansi-cjs: strip-ansi@6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: wrap-ansi@7.0.0
+    optional: true
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
+      '@jridgewell/trace-mapping': 0.3.31
+
+  '@jridgewell/remapping@2.3.5':
+    dependencies:
+      '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
 
   '@jridgewell/resolve-uri@3.1.2': {}
@@ -978,6 +1181,7 @@ snapshots:
     dependencies:
       '@jridgewell/gen-mapping': 0.3.13
       '@jridgewell/trace-mapping': 0.3.31
+    optional: true
 
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
@@ -985,6 +1189,40 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@nutui/icons-vue@0.1.1': {}
+
+  '@nutui/nutui@4.3.14(unplugin-vue-components@31.0.0(@nuxt/kit@4.3.0(magicast@0.5.1))(vue@3.5.27(typescript@5.9.3)))(vue@3.5.27(typescript@5.9.3))':
+    dependencies:
+      '@nutui/icons-vue': 0.1.1
+      sass: 1.97.3
+      unplugin-vue-components: 31.0.0(@nuxt/kit@4.3.0(magicast@0.5.1))(vue@3.5.27(typescript@5.9.3))
+      vue: 3.5.27(typescript@5.9.3)
+
+  '@nuxt/kit@4.3.0(magicast@0.5.1)':
+    dependencies:
+      c12: 3.3.3(magicast@0.5.1)
+      consola: 3.4.2
+      defu: 6.1.4
+      destr: 2.0.5
+      errx: 0.1.0
+      exsolve: 1.0.8
+      ignore: 7.0.5
+      jiti: 2.6.1
+      klona: 2.0.6
+      mlly: 1.8.0
+      ohash: 2.0.11
+      pathe: 2.0.3
+      pkg-types: 2.3.0
+      rc9: 2.1.2
+      scule: 1.3.0
+      semver: 7.7.3
+      tinyglobby: 0.2.15
+      ufo: 1.6.3
+      unctx: 2.5.0
+      untyped: 2.0.0
+    transitivePeerDependencies:
+      - magicast
 
   '@parcel/watcher-android-arm64@2.5.6':
     optional: true
@@ -1216,7 +1454,7 @@ snapshots:
   '@vue/shared@3.5.27': {}
 
   '@vue/tsconfig@0.8.1(typescript@5.9.3)(vue@3.5.27(typescript@5.9.3))':
-    dependencies:
+    optionalDependencies:
       typescript: 5.9.3
       vue: 3.5.27(typescript@5.9.3)
 
@@ -1224,63 +1462,118 @@ snapshots:
 
   alien-signals@3.1.2: {}
 
-  ansi-regex@5.0.1: {}
+  ansi-regex@5.0.1:
+    optional: true
 
-  ansi-regex@6.2.2: {}
+  ansi-regex@6.2.2:
+    optional: true
 
   ansi-styles@4.3.0:
     dependencies:
       color-convert: 2.0.1
+    optional: true
 
-  ansi-styles@6.2.3: {}
+  ansi-styles@6.2.3:
+    optional: true
 
-  balanced-match@1.0.2: {}
+  balanced-match@1.0.2:
+    optional: true
 
   brace-expansion@2.0.2:
     dependencies:
       balanced-match: 1.0.2
+    optional: true
 
-  buffer-builder@0.2.0: {}
+  buffer-builder@0.2.0:
+    optional: true
 
-  buffer-from@1.1.2: {}
+  buffer-from@1.1.2:
+    optional: true
+
+  c12@3.3.3(magicast@0.5.1):
+    dependencies:
+      chokidar: 5.0.0
+      confbox: 0.2.2
+      defu: 6.1.4
+      dotenv: 17.2.3
+      exsolve: 1.0.8
+      giget: 2.0.0
+      jiti: 2.6.1
+      magicast: 0.5.1
+      ohash: 2.0.11
+      pathe: 2.0.3
+      perfect-debounce: 2.1.0
+      pkg-types: 2.3.0
+      rc9: 2.1.2
 
   chokidar@4.0.3:
     dependencies:
       readdirp: 4.1.2
 
+  chokidar@5.0.0:
+    dependencies:
+      readdirp: 5.0.0
+
+  citty@0.1.6:
+    dependencies:
+      consola: 3.4.2
+
   color-convert@2.0.1:
     dependencies:
       color-name: 1.1.4
+    optional: true
 
-  color-name@1.1.4: {}
+  color-name@1.1.4:
+    optional: true
 
-  colorjs.io@0.5.2: {}
+  colorjs.io@0.5.2:
+    optional: true
 
-  commander@2.20.3: {}
+  commander@2.20.3:
+    optional: true
+
+  confbox@0.1.8: {}
+
+  confbox@0.2.2: {}
+
+  consola@3.4.2: {}
 
   copy-anything@2.0.6:
     dependencies:
       is-what: 3.14.1
+    optional: true
 
   cross-spawn@7.0.6:
     dependencies:
       path-key: 3.1.1
       shebang-command: 2.0.0
       which: 2.0.2
+    optional: true
 
   csstype@3.2.3: {}
 
   debug@4.4.3:
     dependencies:
       ms: 2.1.3
+    optional: true
 
-  detect-libc@2.1.2: {}
+  defu@6.1.4: {}
 
-  eastasianwidth@0.2.0: {}
+  destr@2.0.5: {}
 
-  emoji-regex@8.0.0: {}
+  detect-libc@2.1.2:
+    optional: true
 
-  emoji-regex@9.2.2: {}
+  dotenv@17.2.3: {}
+
+  eastasianwidth@0.2.0:
+    optional: true
+
+  emoji-regex@8.0.0:
+    optional: true
+
+  emoji-regex@9.2.2:
+    optional: true
 
   entities@7.0.1: {}
 
@@ -1288,6 +1581,8 @@ snapshots:
     dependencies:
       prr: 1.0.1
     optional: true
+
+  errx@0.1.0: {}
 
   esbuild@0.27.2:
     optionalDependencies:
@@ -1320,14 +1615,21 @@ snapshots:
 
   estree-walker@2.0.2: {}
 
-  fdir@6.5.0(picomatch@4.0.3):
+  estree-walker@3.0.3:
     dependencies:
+      '@types/estree': 1.0.8
+
+  exsolve@1.0.8: {}
+
+  fdir@6.5.0(picomatch@4.0.3):
+    optionalDependencies:
       picomatch: 4.0.3
 
   foreground-child@3.3.1:
     dependencies:
       cross-spawn: 7.0.6
       signal-exit: 4.1.0
+    optional: true
 
   fsevents@2.3.3:
     optional: true
@@ -1335,6 +1637,16 @@ snapshots:
   get-tsconfig@4.13.1:
     dependencies:
       resolve-pkg-maps: 1.0.0
+    optional: true
+
+  giget@2.0.0:
+    dependencies:
+      citty: 0.1.6
+      consola: 3.4.2
+      defu: 6.1.4
+      node-fetch-native: 1.6.7
+      nypm: 0.6.2
+      pathe: 2.0.3
 
   glob@10.5.0:
     dependencies:
@@ -1344,16 +1656,20 @@ snapshots:
       minipass: 7.1.2
       package-json-from-dist: 1.0.1
       path-scurry: 1.11.1
+    optional: true
 
   graceful-fs@4.2.11:
     optional: true
 
-  has-flag@4.0.0: {}
+  has-flag@4.0.0:
+    optional: true
 
   iconv-lite@0.6.3:
     dependencies:
       safer-buffer: 2.1.2
     optional: true
+
+  ignore@7.0.5: {}
 
   image-size@0.5.5:
     optional: true
@@ -1363,24 +1679,32 @@ snapshots:
   is-extglob@2.1.1:
     optional: true
 
-  is-fullwidth-code-point@3.0.0: {}
+  is-fullwidth-code-point@3.0.0:
+    optional: true
 
   is-glob@4.0.3:
     dependencies:
       is-extglob: 2.1.1
     optional: true
 
-  is-what@3.14.1: {}
+  is-what@3.14.1:
+    optional: true
 
-  isexe@2.0.0: {}
+  isexe@2.0.0:
+    optional: true
 
   jackspeak@3.4.3:
     dependencies:
       '@isaacs/cliui': 8.0.2
     optionalDependencies:
       '@pkgjs/parseargs': 0.11.0
+    optional: true
 
   jiti@2.6.1: {}
+
+  klona@2.0.6: {}
+
+  knitwork@1.3.0: {}
 
   less@4.5.1:
     dependencies:
@@ -1395,6 +1719,7 @@ snapshots:
       mime: 1.6.0
       needle: 3.3.1
       source-map: 0.6.1
+    optional: true
 
   lightningcss-android-arm64@1.31.1:
     optional: true
@@ -1444,12 +1769,26 @@ snapshots:
       lightningcss-linux-x64-musl: 1.31.1
       lightningcss-win32-arm64-msvc: 1.31.1
       lightningcss-win32-x64-msvc: 1.31.1
+    optional: true
 
-  lru-cache@10.4.3: {}
+  local-pkg@1.1.2:
+    dependencies:
+      mlly: 1.8.0
+      pkg-types: 2.3.0
+      quansync: 0.2.11
+
+  lru-cache@10.4.3:
+    optional: true
 
   magic-string@0.30.21:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  magicast@0.5.1:
+    dependencies:
+      '@babel/parser': 7.29.0
+      '@babel/types': 7.29.0
+      source-map-js: 1.2.1
 
   make-dir@2.1.0:
     dependencies:
@@ -1463,10 +1802,20 @@ snapshots:
   minimatch@9.0.5:
     dependencies:
       brace-expansion: 2.0.2
+    optional: true
 
-  minipass@7.1.2: {}
+  minipass@7.1.2:
+    optional: true
 
-  ms@2.1.3: {}
+  mlly@1.8.0:
+    dependencies:
+      acorn: 8.15.0
+      pathe: 2.0.3
+      pkg-types: 1.3.1
+      ufo: 1.6.3
+
+  ms@2.1.3:
+    optional: true
 
   muggle-string@0.4.1: {}
 
@@ -1481,18 +1830,40 @@ snapshots:
   node-addon-api@7.1.1:
     optional: true
 
-  package-json-from-dist@1.0.1: {}
+  node-fetch-native@1.6.7: {}
 
-  parse-node-version@1.0.1: {}
+  nypm@0.6.2:
+    dependencies:
+      citty: 0.1.6
+      consola: 3.4.2
+      pathe: 2.0.3
+      pkg-types: 2.3.0
+      tinyexec: 1.0.2
+
+  obug@2.1.1: {}
+
+  ohash@2.0.11: {}
+
+  package-json-from-dist@1.0.1:
+    optional: true
+
+  parse-node-version@1.0.1:
+    optional: true
 
   path-browserify@1.0.1: {}
 
-  path-key@3.1.1: {}
+  path-key@3.1.1:
+    optional: true
 
   path-scurry@1.11.1:
     dependencies:
       lru-cache: 10.4.3
       minipass: 7.1.2
+    optional: true
+
+  pathe@2.0.3: {}
+
+  perfect-debounce@2.1.0: {}
 
   picocolors@1.1.1: {}
 
@@ -1500,6 +1871,18 @@ snapshots:
 
   pify@4.0.1:
     optional: true
+
+  pkg-types@1.3.1:
+    dependencies:
+      confbox: 0.1.8
+      mlly: 1.8.0
+      pathe: 2.0.3
+
+  pkg-types@2.3.0:
+    dependencies:
+      confbox: 0.2.2
+      exsolve: 1.0.8
+      pathe: 2.0.3
 
   postcss@8.5.6:
     dependencies:
@@ -1510,9 +1893,19 @@ snapshots:
   prr@1.0.1:
     optional: true
 
+  quansync@0.2.11: {}
+
+  rc9@2.1.2:
+    dependencies:
+      defu: 6.1.4
+      destr: 2.0.5
+
   readdirp@4.1.2: {}
 
-  resolve-pkg-maps@1.0.0: {}
+  readdirp@5.0.0: {}
+
+  resolve-pkg-maps@1.0.0:
+    optional: true
 
   rollup@4.57.1:
     dependencies:
@@ -1548,6 +1941,7 @@ snapshots:
   rxjs@7.8.2:
     dependencies:
       tslib: 2.8.1
+    optional: true
 
   safer-buffer@2.1.2:
     optional: true
@@ -1575,6 +1969,7 @@ snapshots:
       sass-embedded-darwin-arm64: 1.97.2
       sass-embedded-linux-musl-x64: 1.97.2
       sass-embedded-linux-x64: 1.97.2
+    optional: true
 
   sass@1.97.3:
     dependencies:
@@ -1584,18 +1979,26 @@ snapshots:
     optionalDependencies:
       '@parcel/watcher': 2.5.6
 
-  sax@1.4.4: {}
+  sax@1.4.4:
+    optional: true
+
+  scule@1.3.0: {}
 
   semver@5.7.2:
     optional: true
 
+  semver@7.7.3: {}
+
   shebang-command@2.0.0:
     dependencies:
       shebang-regex: 3.0.0
+    optional: true
 
-  shebang-regex@3.0.0: {}
+  shebang-regex@3.0.0:
+    optional: true
 
-  signal-exit@4.1.0: {}
+  signal-exit@4.1.0:
+    optional: true
 
   source-map-js@1.2.1: {}
 
@@ -1603,30 +2006,37 @@ snapshots:
     dependencies:
       buffer-from: 1.1.2
       source-map: 0.6.1
+    optional: true
 
-  source-map@0.6.1: {}
+  source-map@0.6.1:
+    optional: true
 
-  source-map@0.7.6: {}
+  source-map@0.7.6:
+    optional: true
 
   string-width@4.2.3:
     dependencies:
       emoji-regex: 8.0.0
       is-fullwidth-code-point: 3.0.0
       strip-ansi: 6.0.1
+    optional: true
 
   string-width@5.1.2:
     dependencies:
       eastasianwidth: 0.2.0
       emoji-regex: 9.2.2
       strip-ansi: 7.1.2
+    optional: true
 
   strip-ansi@6.0.1:
     dependencies:
       ansi-regex: 5.0.1
+    optional: true
 
   strip-ansi@7.1.2:
     dependencies:
       ansi-regex: 6.2.2
+    optional: true
 
   stylus@0.64.0:
     dependencies:
@@ -1635,20 +2045,25 @@ snapshots:
       glob: 10.5.0
       sax: 1.4.4
       source-map: 0.7.6
+    optional: true
 
   sugarss@5.0.1(postcss@8.5.6):
     dependencies:
       postcss: 8.5.6
+    optional: true
 
   supports-color@8.1.1:
     dependencies:
       has-flag: 4.0.0
+    optional: true
 
   sync-child-process@1.0.2:
     dependencies:
       sync-message-port: 1.1.3
+    optional: true
 
-  sync-message-port@1.1.3: {}
+  sync-message-port@1.1.3:
+    optional: true
 
   terser@5.46.0:
     dependencies:
@@ -1656,13 +2071,17 @@ snapshots:
       acorn: 8.15.0
       commander: 2.20.3
       source-map-support: 0.5.21
+    optional: true
+
+  tinyexec@1.0.2: {}
 
   tinyglobby@0.2.15:
     dependencies:
       fdir: 6.5.0(picomatch@4.0.3)
       picomatch: 4.0.3
 
-  tslib@2.8.1: {}
+  tslib@2.8.1:
+    optional: true
 
   tsx@4.21.0:
     dependencies:
@@ -1670,34 +2089,79 @@ snapshots:
       get-tsconfig: 4.13.1
     optionalDependencies:
       fsevents: 2.3.3
+    optional: true
 
   typescript@5.9.3: {}
 
+  ufo@1.6.3: {}
+
+  unctx@2.5.0:
+    dependencies:
+      acorn: 8.15.0
+      estree-walker: 3.0.3
+      magic-string: 0.30.21
+      unplugin: 2.3.11
+
   undici-types@7.16.0: {}
 
-  varint@6.0.0: {}
+  unplugin-utils@0.3.1:
+    dependencies:
+      pathe: 2.0.3
+      picomatch: 4.0.3
+
+  unplugin-vue-components@31.0.0(@nuxt/kit@4.3.0(magicast@0.5.1))(vue@3.5.27(typescript@5.9.3)):
+    dependencies:
+      '@nuxt/kit': 4.3.0(magicast@0.5.1)
+      chokidar: 5.0.0
+      local-pkg: 1.1.2
+      magic-string: 0.30.21
+      mlly: 1.8.0
+      obug: 2.1.1
+      picomatch: 4.0.3
+      tinyglobby: 0.2.15
+      unplugin: 2.3.11
+      unplugin-utils: 0.3.1
+      vue: 3.5.27(typescript@5.9.3)
+
+  unplugin@2.3.11:
+    dependencies:
+      '@jridgewell/remapping': 2.3.5
+      acorn: 8.15.0
+      picomatch: 4.0.3
+      webpack-virtual-modules: 0.6.2
+
+  untyped@2.0.0:
+    dependencies:
+      citty: 0.1.6
+      defu: 6.1.4
+      jiti: 2.6.1
+      knitwork: 1.3.0
+      scule: 1.3.0
+
+  varint@6.0.0:
+    optional: true
 
   vite@7.3.1(@types/node@24.10.9)(jiti@2.6.1)(less@4.5.1)(lightningcss@1.31.1)(sass-embedded@1.97.2)(sass@1.97.3)(stylus@0.64.0)(sugarss@5.0.1(postcss@8.5.6))(terser@5.46.0)(tsx@4.21.0)(yaml@2.8.2):
     dependencies:
-      '@types/node': 24.10.9
       esbuild: 0.27.2
       fdir: 6.5.0(picomatch@4.0.3)
-      jiti: 2.6.1
-      less: 4.5.1
-      lightningcss: 1.31.1
       picomatch: 4.0.3
       postcss: 8.5.6
       rollup: 4.57.1
+      tinyglobby: 0.2.15
+    optionalDependencies:
+      '@types/node': 24.10.9
+      fsevents: 2.3.3
+      jiti: 2.6.1
+      less: 4.5.1
+      lightningcss: 1.31.1
       sass: 1.97.3
       sass-embedded: 1.97.2
       stylus: 0.64.0
       sugarss: 5.0.1(postcss@8.5.6)
       terser: 5.46.0
-      tinyglobby: 0.2.15
       tsx: 4.21.0
       yaml: 2.8.2
-    optionalDependencies:
-      fsevents: 2.3.3
 
   vscode-uri@3.1.0: {}
 
@@ -1714,22 +2178,29 @@ snapshots:
       '@vue/runtime-dom': 3.5.27
       '@vue/server-renderer': 3.5.27(vue@3.5.27(typescript@5.9.3))
       '@vue/shared': 3.5.27
+    optionalDependencies:
       typescript: 5.9.3
+
+  webpack-virtual-modules@0.6.2: {}
 
   which@2.0.2:
     dependencies:
       isexe: 2.0.0
+    optional: true
 
   wrap-ansi@7.0.0:
     dependencies:
       ansi-styles: 4.3.0
       string-width: 4.2.3
       strip-ansi: 6.0.1
+    optional: true
 
   wrap-ansi@8.1.0:
     dependencies:
       ansi-styles: 6.2.3
       string-width: 5.1.2
       strip-ansi: 7.1.2
+    optional: true
 
-  yaml@2.8.2: {}
+  yaml@2.8.2:
+    optional: true
