@@ -11,6 +11,7 @@ const toShowDialog = () => {
     okText: '关闭',
     noCancelBtn: true,
     closeOnPopstate: true,
+    zIndex: 3000
   })
 };
 </script>
